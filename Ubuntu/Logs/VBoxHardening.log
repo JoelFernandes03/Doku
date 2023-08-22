@@ -4160,3 +4160,720 @@
 66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DWrite.dll
 66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb86620000 'C:\WINDOWS\system32\dwrite.dll'
 66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b9f0000 'C:\WINDOWS\system32\gdi32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcrt.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #6 'user32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #8 'win32u.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #9 'gdi32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #11 'dwmapi.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\d3d9.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\d3d9.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'dwmapi.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'dwmapi.dll' -> '\Device\HarddiskVolume4\Windows\System32\dwmapi.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\dwmapi.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'gdi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'gdi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\gdi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'win32u.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'win32u.dll' -> '\Device\HarddiskVolume4\Windows\System32\win32u.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'user32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'user32.dll' -> '\Device\HarddiskVolume4\Windows\System32\user32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcrt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcrt.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcrt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\system32\d3d9.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\d3d9.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb10020000 LB 0x001a9000 C:\WINDOWS\system32\d3d9.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\d3d9.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb10020000 'C:\WINDOWS\system32\d3d9.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hFile=0000000000000b74 pwszName=\Device\HarddiskVolume4\Windows\System32\d3d9on12.dll
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: Cached context 000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hCatAdmin=000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: cbHash=20 wszDigest=9E945106AAFEA556451F99652F397D7A0E742071
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: WinVerifyTrust => 0x0; cat='C:\WINDOWS\system32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package051021~31bf3856ad364e35~amd64~~10.0.22621.1992.cat'; file='\Device\HarddiskVolume4\Windows\System32\d3d9on12.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile -> 0 (org 22900)
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcp_win.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #15 'dxgi.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #16 'd3d12.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\d3d9on12.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\d3d9on12.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'd3d12.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'd3d12.dll' -> '\Device\HarddiskVolume4\Windows\System32\d3d12.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcp_win.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\D3D12.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\D3D12.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'dxgi.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'dxgi.dll' -> '\Device\HarddiskVolume4\Windows\System32\dxgi.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\dxgi.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcp_win.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcp_win.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcp_win.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcp_win.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcp_win.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcp_win.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\d3d9on12.dll (Input=d3d9on12.dll, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000009:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\d3d9on12.dll
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\D3D12.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb10990000 LB 0x00023000 C:\WINDOWS\System32\d3d12.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\D3D12.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb0ff60000 LB 0x000b9000 C:\WINDOWS\System32\d3d9on12.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\d3d9on12.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb0ff60000 'C:\WINDOWS\System32\d3d9on12.dll'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(ext-ms-win-dxcore-l1-1-0.dll) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=ext-ms-win-dxcore-l1-1-0.dll (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb87bc0000 'ext-ms-win-dxcore-l1-1-0.dll'
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\cfgmgr32.dll)
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\cfgmgr32.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb8a960000 LB 0x0004e000 C:\WINDOWS\SYSTEM32\cfgmgr32.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\cfgmgr32.dll [avoiding WinVerifyTrust]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheProcessWvtTodos: 0 (was 0) fWinVerifyTrust=1 for '\Device\HarddiskVolume4\Windows\System32\cfgmgr32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcp_win.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\D3D12Core.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\D3D12Core.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcp_win.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcp_win.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcp_win.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\D3D12Core.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\D3D12Core.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb0fd50000 LB 0x00202000 C:\WINDOWS\System32\D3D12Core.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\D3D12Core.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-appmodel-unlock-l1-1-0.dll) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-appmodel-unlock-l1-1-0.dll (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89bb0000 'api-ms-win-appmodel-unlock-l1-1-0.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb0fd50000 'C:\WINDOWS\System32\D3D12Core.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12umd64.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12umd64.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12umd64.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000009:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12umd64.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb0fd20000 LB 0x00027000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12umd64.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12umd64.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\kernel32.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\kernel32.dll (Input=kernel32, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb0fd20000 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12umd64.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #1 'user32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #2 'advapi32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #3 'bcrypt.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #4 'crypt32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #5 'shlwapi.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #6 'shell32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #7 'ole32.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12um64xel.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12um64xel.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'ole32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'ole32.dll' -> '\Device\HarddiskVolume4\Windows\System32\ole32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'shell32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'shell32.dll' -> '\Device\HarddiskVolume4\Windows\System32\shell32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\shell32.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'shlwapi.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'shlwapi.dll' -> '\Device\HarddiskVolume4\Windows\System32\shlwapi.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\shlwapi.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'crypt32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'crypt32.dll' -> '\Device\HarddiskVolume4\Windows\System32\crypt32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'bcrypt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'bcrypt.dll' -> '\Device\HarddiskVolume4\Windows\System32\bcrypt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\bcrypt.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'advapi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'advapi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\advapi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\advapi32.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'user32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'user32.dll' -> '\Device\HarddiskVolume4\Windows\System32\user32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12um64xel.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12um64xel.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb0f060000 LB 0x00cb9000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12um64xel.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12um64xel.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\kernel32.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\kernel32.dll (Input=kernel32, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-string-l1-1-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-string-l1-1-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-string-l1-1-0'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-localization-l1-2-1) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-localization-l1-2-1 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-localization-l1-2-1'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-datetime-l1-1-1) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-datetime-l1-1-1 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-datetime-l1-1-1'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-localization-obsolete-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-localization-obsolete-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-localization-obsolete-l1-2-0'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb0f060000 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12um64xel.dll'
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\version.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\version.dll (Input=version.dll, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb723e0000 'C:\WINDOWS\System32\version.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'setupapi.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #2 'advapi32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #3 'user32.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\ControlLib.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\ControlLib.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'user32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'user32.dll' -> '\Device\HarddiskVolume4\Windows\System32\user32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'advapi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'advapi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\advapi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\advapi32.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'setupapi.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'setupapi.dll' -> '\Device\HarddiskVolume4\Windows\System32\setupapi.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcrt.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\setupapi.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\setupapi.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcrt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcrt.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcrt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\msvcrt.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\ControlLib.dll (Input=ControlLib.dll, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\ControlLib.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb8c570000 LB 0x00474000 C:\WINDOWS\System32\SETUPAPI.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\setupapi.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb5d050000 LB 0x00044000 C:\WINDOWS\System32\ControlLib.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\ControlLib.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-fibers-l1-1-1) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-fibers-l1-1-1 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-fibers-l1-1-1'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\kernel32.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\kernel32.dll (Input=kernel32, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb5d050000 'C:\WINDOWS\System32\ControlLib.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8cb10000 'C:\WINDOWS\System32\USER32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #19 'cfgmgr32.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\devobj.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\devobj.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'cfgmgr32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'cfgmgr32.dll' -> '\Device\HarddiskVolume4\Windows\System32\cfgmgr32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\cfgmgr32.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\DEVOBJ.dll (Input=DEVOBJ.dll, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\devobj.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb8a930000 LB 0x0002c000 C:\WINDOWS\System32\DEVOBJ.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\devobj.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8a930000 'C:\WINDOWS\System32\DEVOBJ.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'setupapi.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #1 'dxgi.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #2 'shell32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #4 'advapi32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #5 'user32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #7 'gdi32.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\IntelControlLib.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\IntelControlLib.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'gdi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'gdi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\gdi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\gdi32.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'user32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'user32.dll' -> '\Device\HarddiskVolume4\Windows\System32\user32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'advapi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'advapi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\advapi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\advapi32.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'shell32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'shell32.dll' -> '\Device\HarddiskVolume4\Windows\System32\shell32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\shell32.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'dxgi.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'dxgi.dll' -> '\Device\HarddiskVolume4\Windows\System32\dxgi.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\dxgi.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'setupapi.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'setupapi.dll' -> '\Device\HarddiskVolume4\Windows\System32\setupapi.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\setupapi.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\IntelControlLib.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\IntelControlLib.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb7e030000 LB 0x00088000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\IntelControlLib.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\IntelControlLib.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-fibers-l1-1-1) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-fibers-l1-1-1 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-fibers-l1-1-1'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\kernel32.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\kernel32.dll (Input=kernel32, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb7e030000 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\IntelControlLib.dll'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-registry-l1-1-0.dll) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-registry-l1-1-0.dll (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-registry-l1-1-0.dll'
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\wintrust.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\WINTRUST.dll (Input=WINTRUST.dll, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b3e0000 'C:\WINDOWS\System32\WINTRUST.dll'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(ext-ms-win-core-resourcepolicy-l1-1-0.dll) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=ext-ms-win-core-resourcepolicy-l1-1-0.dll (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcrt.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #11 'rpcrt4.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\ResourcePolicyClient.dll)
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\ResourcePolicyClient.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb88050000 LB 0x00015000 C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\ResourcePolicyClient.dll [avoiding WinVerifyTrust]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb88050000 'ext-ms-win-core-resourcepolicy-l1-1-0.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'rpcrt4.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'rpcrt4.dll' -> '\Device\HarddiskVolume4\Windows\System32\rpcrt4.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcrt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcrt.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcrt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheProcessWvtTodos: 0 (was 0) fWinVerifyTrust=1 for '\Device\HarddiskVolume4\Windows\System32\ResourcePolicyClient.dll'
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb88050000 LB 0x00015000 C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll [flags=0x0]
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #12 'msvcp_win.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\directxdatabasehelper.dll)
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\directxdatabasehelper.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb7e0c0000 LB 0x0004a000 C:\WINDOWS\SYSTEM32\directxdatabasehelper.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\directxdatabasehelper.dll [avoiding WinVerifyTrust]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcp_win.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcp_win.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcp_win.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheProcessWvtTodos: 0 (was 0) fWinVerifyTrust=1 for '\Device\HarddiskVolume4\Windows\System32\directxdatabasehelper.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: '\Device\HarddiskVolume4\Windows\System32\ntdll.dll' has no imports
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\ntdll.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\ntdll.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\ntdll.dll (Input=ntdll.dll, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8d910000 'C:\WINDOWS\System32\ntdll.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b9f0000 'C:\WINDOWS\System32\gdi32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b9f0000 'C:\WINDOWS\System32\gdi32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b9f0000 'C:\WINDOWS\System32\gdi32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b9f0000 'C:\WINDOWS\System32\gdi32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b9f0000 'C:\WINDOWS\System32\gdi32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b9f0000 'C:\WINDOWS\System32\gdi32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b9f0000 'C:\WINDOWS\System32\gdi32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b9f0000 'C:\WINDOWS\System32\gdi32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #1 'advapi32.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'advapi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'advapi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\advapi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb79200000 LB 0x00417000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\kernel32.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\kernel32.dll (Input=kernel32, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb79200000 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: error opening 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\dxgi.dll': 0 (NtPath=\??\C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\dxgi.dll; Input=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\dxgi.dll; rcNtGetDll=0x0
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0xc0000034 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\dxgi.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #1 'ole32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #2 'shell32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #3 'advapi32.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igc64.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igc64.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'advapi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'advapi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\advapi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'shell32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'shell32.dll' -> '\Device\HarddiskVolume4\Windows\System32\shell32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\shell32.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'ole32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'ole32.dll' -> '\Device\HarddiskVolume4\Windows\System32\ole32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igc64.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igc64.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb75500000 LB 0x03cfc000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igc64.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igc64.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-string-l1-1-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-string-l1-1-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-string-l1-1-0'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-localization-l1-2-1) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-localization-l1-2-1 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-localization-l1-2-1'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-datetime-l1-1-1) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-datetime-l1-1-1 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-datetime-l1-1-1'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-localization-obsolete-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-localization-obsolete-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-localization-obsolete-l1-2-0'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb75500000 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igc64.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcp_win.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #23 'userenv.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\D3DSCache.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\D3DSCache.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'userenv.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'userenv.dll' -> '\Device\HarddiskVolume4\Windows\System32\userenv.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\userenv.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcp_win.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcp_win.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcp_win.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\D3DSCache.dll (Input=D3DSCache.dll, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\D3DSCache.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb0f030000 LB 0x0002f000 C:\WINDOWS\System32\D3DSCache.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\D3DSCache.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb0f030000 'C:\WINDOWS\System32\D3DSCache.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #1 'advapi32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #2 'ole32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #3 'oleaut32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #4 'setupapi.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12dxva64.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12dxva64.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'setupapi.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'setupapi.dll' -> '\Device\HarddiskVolume4\Windows\System32\setupapi.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\setupapi.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'oleaut32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'oleaut32.dll' -> '\Device\HarddiskVolume4\Windows\System32\oleaut32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\oleaut32.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'ole32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'ole32.dll' -> '\Device\HarddiskVolume4\Windows\System32\ole32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'advapi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'advapi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\advapi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12dxva64.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12dxva64.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb0dc80000 LB 0x013a5000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12dxva64.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12dxva64.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-string-l1-1-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-string-l1-1-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-string-l1-1-0'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-localization-l1-2-1) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-localization-l1-2-1 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-localization-l1-2-1'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-datetime-l1-1-1) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-datetime-l1-1-1 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-datetime-l1-1-1'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-localization-obsolete-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-localization-obsolete-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-localization-obsolete-l1-2-0'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb0dc80000 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12dxva64.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\media_bin_64.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\media_bin_64.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\media_bin_64.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\media_bin_64.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb23e50000 LB 0x01d20000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\media_bin_64.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\media_bin_64.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-fibers-l1-1-1) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-fibers-l1-1-1 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-fibers-l1-1-1'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb23e50000 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\media_bin_64.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #1 'advapi32.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdinfo64.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdinfo64.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'advapi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'advapi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\advapi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdinfo64.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdinfo64.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb70fd0000 LB 0x00027000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdinfo64.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdinfo64.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb70fd0000 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdinfo64.dll'
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb79200000 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: error opening 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\dxgi.dll': 0 (NtPath=\??\C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\dxgi.dll; Input=C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\dxgi.dll; rcNtGetDll=0x0
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0xc0000034 'C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\dxgi.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #39 'combase.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #41 'msvcp_win.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\twinapi.appcore.dll)
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\twinapi.appcore.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb804b0000 LB 0x0026e000 C:\WINDOWS\SYSTEM32\twinapi.appcore.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\twinapi.appcore.dll [avoiding WinVerifyTrust]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcp_win.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcp_win.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcp_win.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\msvcp_win.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'combase.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'combase.dll' -> '\Device\HarddiskVolume4\Windows\System32\combase.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\combase.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheProcessWvtTodos: 0 (was 0) fWinVerifyTrust=1 for '\Device\HarddiskVolume4\Windows\System32\twinapi.appcore.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hFile=0000000000000970 pwszName=\Device\HarddiskVolume4\Windows\System32\dxilconv.dll
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: Cached context 000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hCatAdmin=000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: cbHash=20 wszDigest=21A59EE18ADC0B54C32B7EB5A7FC55FC542462A4
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: WinVerifyTrust => 0x0; cat='C:\WINDOWS\system32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package0517~31bf3856ad364e35~amd64~~10.0.22621.1992.cat'; file='\Device\HarddiskVolume4\Windows\System32\dxilconv.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile -> 0 (org 22900)
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\dxilconv.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\dxilconv.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\dxilconv.dll (Input=dxilconv.dll, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\dxilconv.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb64dc0000 LB 0x0017e000 C:\WINDOWS\System32\dxilconv.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\dxilconv.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb64dc0000 'C:\WINDOWS\System32\dxilconv.dll'
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb64dc0000 LB 0x0017e000 C:\WINDOWS\System32\dxilconv.dll [flags=0x0]
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(ext-ms-win-core-resourcepolicy-l1-1-0.dll) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=ext-ms-win-core-resourcepolicy-l1-1-0.dll (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\ResourcePolicyClient.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb88050000 LB 0x00015000 C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\ResourcePolicyClient.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb88050000 'ext-ms-win-core-resourcepolicy-l1-1-0.dll'
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb88050000 LB 0x00015000 C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll [flags=0x0]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b9f0000 'C:\WINDOWS\System32\gdi32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #1 'advapi32.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd10iumd64.dll)
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd10iumd64.dll
+66c0.58b0: supR3HardenedMonitor_NtCreateSection: NtMapViewOfSection failed on 0000000000000b30 (hFile=0000000000000c04) with 0xc0000022 -> STATUS_TRUST_FAILURE
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd10iumd64.dll [avoiding WinVerifyTrust]
+66c0.58b0: supR3HardenedMonitor_NtCreateSection: NtMapViewOfSection failed on 0000000000000c04 (hFile=0000000000000b30) with 0xc0000022 -> STATUS_TRUST_FAILURE
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb70fd0000 LB 0x00027000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdinfo64.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb23e50000 LB 0x01d20000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\media_bin_64.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb0dc80000 LB 0x013a5000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12dxva64.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb7e030000 LB 0x00088000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\IntelControlLib.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb5d050000 LB 0x00044000 C:\WINDOWS\System32\ControlLib.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb8c570000 LB 0x00474000 C:\WINDOWS\System32\SETUPAPI.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb79200000 LB 0x00417000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igdgmm64.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb0f060000 LB 0x00cb9000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12um64xel.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb0fd20000 LB 0x00027000 C:\WINDOWS\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd12umd64.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb0ff60000 LB 0x000b9000 C:\WINDOWS\System32\d3d9on12.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb0f030000 LB 0x0002f000 C:\WINDOWS\System32\D3DSCache.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb804b0000 LB 0x0026e000 C:\WINDOWS\SYSTEM32\twinapi.appcore.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb0fd50000 LB 0x00202000 C:\WINDOWS\System32\D3D12Core.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: Unload 00007ffb10990000 LB 0x00023000 C:\WINDOWS\System32\d3d12.dll [flags=0x0]
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb8bed0000 LB 0x00127000 C:\WINDOWS\System32\MSCTF.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcrt.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\msctf.dll)
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\msctf.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcrt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcrt.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcrt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'advapi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'advapi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\advapi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheProcessWvtTodos: 0 (was 0) fWinVerifyTrust=1 for '\Device\HarddiskVolume4\Windows\System32\msctf.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheProcessWvtTodos: 0 (was 0) fWinVerifyTrust=1 for '\Device\HarddiskVolume4\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_84b9f8c630338fb4\igd10iumd64.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hFile=0000000000000b10 pwszName=\Device\HarddiskVolume4\Windows\System32\DataExchange.dll
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: Cached context 000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hCatAdmin=000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: cbHash=20 wszDigest=70DD304E91C0536606EA642E53488CE0117C7FF3
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: WinVerifyTrust => 0x0; cat='C:\WINDOWS\system32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package051020~31bf3856ad364e35~amd64~~10.0.22621.2070.cat'; file='\Device\HarddiskVolume4\Windows\System32\DataExchange.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile -> 0 (org 22900)
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #27 'msvcp_win.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\DataExchange.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\DataExchange.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcp_win.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcp_win.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcp_win.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\system32\dataexchange.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000002009:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DataExchange.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb4dc20000 LB 0x0005e000 C:\WINDOWS\system32\dataexchange.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\DataExchange.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb4dc20000 'C:\WINDOWS\system32\dataexchange.dll'
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\twinapi.appcore.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb804b0000 LB 0x0026e000 C:\WINDOWS\system32\twinapi.appcore.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\twinapi.appcore.dll
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\SHCore.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\system32\Shcore.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8c280000 'C:\WINDOWS\system32\Shcore.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcrt.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #14 'oleaut32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #16 'rpcrt4.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\TextInputFramework.dll)
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\TextInputFramework.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb74960000 LB 0x0012d000 C:\WINDOWS\SYSTEM32\textinputframework.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\TextInputFramework.dll [avoiding WinVerifyTrust]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'rpcrt4.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'rpcrt4.dll' -> '\Device\HarddiskVolume4\Windows\System32\rpcrt4.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'oleaut32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'oleaut32.dll' -> '\Device\HarddiskVolume4\Windows\System32\oleaut32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcrt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcrt.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcrt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheProcessWvtTodos: 0 (was 0) fWinVerifyTrust=1 for '\Device\HarddiskVolume4\Windows\System32\TextInputFramework.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8cdf0000 'C:\WINDOWS\System32\ole32.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8c9f0000 'C:\WINDOWS\System32\OLEAUT32.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hFile=0000000000000c80 pwszName=\Device\HarddiskVolume4\Windows\System32\wbem\wbemprox.dll
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: Cached context 000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hCatAdmin=000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: cbHash=20 wszDigest=851935C58338D1E4890E8F059FC6F8BC1DBDD3C6
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: WinVerifyTrust => 0x0; cat='C:\WINDOWS\system32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package04~31bf3856ad364e35~amd64~~10.0.22621.2134.cat'; file='\Device\HarddiskVolume4\Windows\System32\wbem\wbemprox.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile -> 0 (org 22900)
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcrt.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #16 'wbemcomn.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\wbem\wbemprox.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\wbem\wbemprox.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'wbemcomn.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'wbemcomn.dll' -> '\Device\HarddiskVolume4\Windows\System32\wbemcomn.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hFile=0000000000000cc8 pwszName=\Device\HarddiskVolume4\Windows\System32\wbemcomn.dll
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: Cached context 000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hCatAdmin=000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: cbHash=20 wszDigest=E3C24DA357936B83C408A2C99BB0510A23847A80
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: WinVerifyTrust => 0x0; cat='C:\WINDOWS\system32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package04~31bf3856ad364e35~amd64~~10.0.22621.2134.cat'; file='\Device\HarddiskVolume4\Windows\System32\wbemcomn.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile -> 0 (org 22900)
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcrt.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\wbemcomn.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\wbemcomn.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcrt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcrt.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcrt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcrt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcrt.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcrt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\system32\wbem\wbemprox.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000002009:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\wbem\wbemprox.dll
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\wbemcomn.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb6cbb0000 LB 0x00080000 C:\WINDOWS\SYSTEM32\wbemcomn.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\wbemcomn.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb665e0000 LB 0x00010000 C:\WINDOWS\system32\wbem\wbemprox.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\wbem\wbemprox.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(API-MS-Win-Core-LocalRegistry-L1-1-0.dll) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=API-MS-Win-Core-LocalRegistry-L1-1-0.dll (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000009:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'API-MS-Win-Core-LocalRegistry-L1-1-0.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb665e0000 'C:\WINDOWS\system32\wbem\wbemprox.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hFile=0000000000000ce8 pwszName=\Device\HarddiskVolume4\Windows\System32\wbem\wbemsvc.dll
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: Cached context 000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hCatAdmin=000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: cbHash=20 wszDigest=190A671D743FA010B890AE56DE4AF3E4560B9CB6
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: WinVerifyTrust => 0x0; cat='C:\WINDOWS\system32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package04~31bf3856ad364e35~amd64~~10.0.22621.2134.cat'; file='\Device\HarddiskVolume4\Windows\System32\wbem\wbemsvc.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile -> 0 (org 22900)
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcrt.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #1 'rpcrt4.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\wbem\wbemsvc.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\wbem\wbemsvc.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'rpcrt4.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'rpcrt4.dll' -> '\Device\HarddiskVolume4\Windows\System32\rpcrt4.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcrt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcrt.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcrt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\system32\wbem\wbemsvc.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000002009:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\wbem\wbemsvc.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb673b0000 LB 0x00014000 C:\WINDOWS\system32\wbem\wbemsvc.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\wbem\wbemsvc.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb673b0000 'C:\WINDOWS\system32\wbem\wbemsvc.dll'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-localization-l1-2-0.dll) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-localization-l1-2-0.dll (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000009:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-localization-l1-2-0.dll'
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-localization-obsolete-l1-1-0.dll) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-localization-obsolete-l1-1-0.dll (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000009:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-localization-obsolete-l1-1-0.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hFile=0000000000000cf0 pwszName=\Device\HarddiskVolume4\Windows\System32\wbem\fastprox.dll
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: Cached context 000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hCatAdmin=000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: cbHash=20 wszDigest=FC69080488818519621E3F65478526262791C1D2
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: WinVerifyTrust => 0x0; cat='C:\WINDOWS\system32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package04~31bf3856ad364e35~amd64~~10.0.22621.2134.cat'; file='\Device\HarddiskVolume4\Windows\System32\wbem\fastprox.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile -> 0 (org 22900)
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcrt.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #20 'wbemcomn.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\wbem\fastprox.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\wbem\fastprox.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'wbemcomn.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'wbemcomn.dll' -> '\Device\HarddiskVolume4\Windows\System32\wbemcomn.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedScreenImage/Imports: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\wbemcomn.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcrt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcrt.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcrt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\system32\wbem\fastprox.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000002009:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\wbem\fastprox.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb61660000 LB 0x000f8000 C:\WINDOWS\system32\wbem\fastprox.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\wbem\fastprox.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb61660000 'C:\WINDOWS\system32\wbem\fastprox.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hFile=0000000000000ccc pwszName=\Device\HarddiskVolume4\Windows\System32\amsi.dll
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: Cached context 000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: hCatAdmin=000001a1b9df85b0
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: cbHash=20 wszDigest=47FCE31AAF860A9E41EB3F3CBC4C21B1C3487C05
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile: WinVerifyTrust => 0x0; cat='C:\WINDOWS\system32\CatRoot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Desktop-Required-Package05~31bf3856ad364e35~amd64~~10.0.22621.1848.cat'; file='\Device\HarddiskVolume4\Windows\System32\amsi.dll'
+66c0.58b0: supR3HardNtViCallWinVerifyTrustCatFile -> 0 (org 22900)
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'msvcrt.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #14 'rpcrt4.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\amsi.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\amsi.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'rpcrt4.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'rpcrt4.dll' -> '\Device\HarddiskVolume4\Windows\System32\rpcrt4.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'msvcrt.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'msvcrt.dll' -> '\Device\HarddiskVolume4\Windows\System32\msvcrt.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\System32\amsi.dll (Input=amsi.dll, rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\amsi.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb609a0000 LB 0x0001d000 C:\WINDOWS\System32\amsi.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\amsi.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb609a0000 'C:\WINDOWS\System32\amsi.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb89b70000 'C:\WINDOWS\system32\rsaenh.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ad20000 'C:\WINDOWS\System32\crypt32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #0 'advapi32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #2 'ole32.dll'.
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #3 'oleaut32.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\ProgramData\Microsoft\Windows Defender\Platform\4.18.23070.1004-0\MpOAV.dll) WinVerifyTrust
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\ProgramData\Microsoft\Windows Defender\Platform\4.18.23070.1004-0\MpOAV.dll
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'oleaut32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'oleaut32.dll' -> '\Device\HarddiskVolume4\Windows\System32\oleaut32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'ole32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'ole32.dll' -> '\Device\HarddiskVolume4\Windows\System32\ole32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: Processing 'advapi32.dll'...
+66c0.58b0: supR3HardenedWinVerifyCacheProcessImportTodos: 'advapi32.dll' -> '\Device\HarddiskVolume4\Windows\System32\advapi32.dll' [rcNtRedir=0xc0150008]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23070.1004-0\MpOav.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000001:<flags> [calling]
+66c0.58b0: supR3HardenedScreenImage/NtCreateSection: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\ProgramData\Microsoft\Windows Defender\Platform\4.18.23070.1004-0\MpOAV.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb608e0000 LB 0x0007c000 C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23070.1004-0\MpOav.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\ProgramData\Microsoft\Windows Defender\Platform\4.18.23070.1004-0\MpOAV.dll
+66c0.58b0: supR3HardenedIsApiSetDll: ApiSetQueryApiSetPresence(api-ms-win-core-synch-l1-2-0) -> 0x0, fPresent=1
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=api-ms-win-core-synch-l1-2-0 (rcNtResolve=0x0) *pfFlags=0x0 pwszSearchPath=0000000000000801:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ae90000 'api-ms-win-core-synch-l1-2-0'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8ccc0000 'C:\WINDOWS\System32\kernel32.dll'
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\version.dll
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: pName=C:\WINDOWS\system32\version.dll (rcNtResolve=0xc0150008) *pfFlags=0x0 pwszSearchPath=0000000000000009:<flags> [calling]
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb723e0000 'C:\WINDOWS\system32\version.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb608e0000 'C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23070.1004-0\MpOav.dll'
+66c0.58b0: supR3HardenedMonitor_LdrLoadDll: returns rcNt=0x0 hMod=00007ffb8b6d0000 'C:\WINDOWS\System32\ADVAPI32.dll'
+66c0.58b0: supR3HardenedWinVerifyCacheScheduleImports: Import todo: #17 'msvcp_win.dll'.
+66c0.58b0: supHardenedWinVerifyImageByHandle: -> 0 (\Device\HarddiskVolume4\Windows\System32\CoreMessaging.dll)
+66c0.58b0: supR3HardenedWinVerifyCacheInsert: \Device\HarddiskVolume4\Windows\System32\CoreMessaging.dll
+66c0.58b0: supR3HardenedDllNotificationCallback: load   00007ffb87720000 LB 0x00133000 C:\WINDOWS\System32\CoreMessaging.dll [fFlags=0x0]
+66c0.58b0: supR3HardenedScreenImage/LdrLoadDll: cache hit (VINF_SUCCESS) on \Device\HarddiskVolume4\Windows\System32\CoreMessaging.dll [avoiding WinVerifyTrust]
+66c0.58b0: Terminating the normal way: rcExit=0
+4760.c4c: supR3HardNtChildWaitFor[2]: Quitting: ExitCode=0x0 (rcNtWait=0x0, rcNt1=0x0, rcNt2=0x103, rcNt3=0x103, 18847 ms, the end);
+2da4.1a94: supR3HardNtChildWaitFor[1]: Quitting: ExitCode=0x0 (rcNtWait=0x0, rcNt1=0x0, rcNt2=0x103, rcNt3=0x103, 20045 ms, the end);
