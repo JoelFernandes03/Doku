@@ -1,0 +1,16 @@
+#cloud-config
+users:
+  - name: ubuntu  #benutzername
+    sudo: ALL=(ALL) NOPASSWD:ALL  #erlaubt den User mit alle Sudo befehle auszuführen und kein Passwort benötigt wird.
+    groups: users, admin  #Dieser user gehört zur gruppe Users und admin
+    home: /home/ubuntu # Lokation der Persönichen Files des Benutzer ubuntu
+    shell: /bin/bash # Die Lokation bei der der user interagiert wenn er sich einloggt
+    ssh_authorized_keys: 
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCsd5C9uNSrtZCtOVlpo/Tfqxloh0ZKsp1F2VZ9dtEjA4XaEaXc4ur6LILTtn1bMRiSRoX3M2FjW3aZeRb/0qrV64bU7jSM4hrWlH6n+7rhc9P+wMZI6xbpSUSUFehx2/4zIRnL1GmHlyYZ3Df7xN+w6EkjJdP0UW42Cf9wrK/ARTwRXpOtklcbBwWDdtC26CXp9CygCwXDHtkyPZTmO7d/jV2zKRWfrbyd/q+WJeAPkjeKzX8Cm8z463gS+q41ayeXLHInAf9CVKjqod/cW5ahM9tIy09OEqik89J8i9m+e75l07UVbLV85uiApIFveoX8x0pvxNrvutKYgnRnu3bZ aws-key       
+# die öffentliche SSH key der Authorisiert wird wenn der Passende Private key gegeben wird.
+ssh_pwauth: false # es wird keine passworteingabe als authentifizierung akzeptiert.
+disable_root: false # die möglichkeit mit dem root account direkt anzumelden besteht.
+package_update: true # überprüft ob neue Softwareaktualisierungen vorhanden sind
+packages:  #die aufgelisteten Packete,die heruntergeladen werden sollen.
+  - curl    
+  - wget 
