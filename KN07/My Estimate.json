@@ -1,0 +1,76 @@
+{
+	"Name": "My Estimate",
+	"Total Cost": {
+		"monthly": "248.48",
+		"upfront": "0.00",
+		"12 months": "2981.76"
+	},
+	"Metadata": {
+		"Currency": "USD",
+		"Locale": "en_US",
+		"Created On": "26.9.2023",
+		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
+		"Share Url": "https://calculator.aws/#/estimate?id=dada73b25c43d8c9c8918174ec0882c8f650d2d3"
+	},
+	"Groups": {
+		"Services": [
+			{
+				"Service Name": "Amazon EC2 ",
+				"Region": "Europe (Zurich)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "65.25",
+					"upfront": "0.00",
+					"12 months": "783.05"
+				},
+				"Properties": {
+					"Tenancy": "Shared Instances",
+					"Operating system": "Ubuntu Pro",
+					"Workload": "Consistent, Number of instances: 1",
+					"Advance EC2 instance": "t3.small",
+					"Pricing strategy": "Compute Savings Plans 3 Year  None upfront",
+					"Enable monitoring": "disabled",
+					"EBS Storage amount": "20 GB",
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Not selected": "0 TB per month",
+					"DT Intra-Region:": "0 TB per month"
+				}
+			},
+			{
+				"Service Name": "Amazon Aurora MySQL-Compatible",
+				"Region": "Europe (Zurich)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "94.90",
+					"upfront": "0.00",
+					"12 months": "1138.80"
+				},
+				"Properties": {
+					"Aurora MySQL Cluster Configuration Option": "Aurora Standard",
+					"Change records per statement": "0.38",
+					"Instance Type": "db.t3.medium",
+					"Nodes": "1",
+					"Utilization": "100 %Utilized/Month",
+					"Instance Family": "General purpose",
+					"Pricing Model": "OnDemand",
+					"Storage amount": "100 GB",
+					"Additional backup storage": "150 GB"
+				}
+			},
+			{
+				"Service Name": "Classic Load Balancer",
+				"Region": "Europe (Zurich)",
+				"Status": "",
+				"Service Cost": {
+					"monthly": "88.33",
+					"upfront": "0.00",
+					"12 months": "1059.96"
+				},
+				"Properties": {
+					"Number of Classic Load Balancers": "1",
+					"Processed bytes per CLB": "10 GB per hour"
+				}
+			}
+		]
+	}
+}

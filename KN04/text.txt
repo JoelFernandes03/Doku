@@ -1,0 +1,13 @@
+	<?php $ihrname = "Joel"; ?>
+<html>
+	<head>
+	<title><?php echo($ihrname) ?></title>
+	</head>
+	<body>
+		Hier sieht man einen hellblauen Himmel, welches leicht bewölkt ist. An der Steinküste stehen Palmen.
+	<br />
+	<img src="http://joelbucketpro.s3-website-us-east-1.amazonaws.com/" />
+	
+	Bild von Lukas Grüter
+	</body>
+</html>
