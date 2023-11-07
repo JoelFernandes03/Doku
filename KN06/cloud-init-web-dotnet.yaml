@@ -57,7 +57,7 @@ runcmd:
   - sudo apt-get update
   - sudo apt-get install -y mongodb-mongosh
   # import mongodb collections
-  - mongosh "mongodb+srv://kn06.p9d9r09.mongodb.net/" --u Ubuntu¨ -p Welcome.2023 < /home/ubuntu/m346scripts/KN06/shop-database-mongodb.txt
+  - mongosh "mongodb+srv://kn06.p9d9r09.mongodb.net/" --u Ubuntu -p Welcome.2023 < /home/ubuntu/m346scripts/KN06/shop-database-mongodb.txt
   # install App
   - sudo mkdir /var/www
   - sudo mkdir /var/www/app
