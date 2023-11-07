@@ -1,0 +1,1 @@
+mongosh "mongodb+srv://kn06.p9d9r09.mongodb.net/" --apiVersion 1 --username Ubuntu
